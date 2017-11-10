@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="ImageButton">
+        <attr format="string" name="ib_title"/>
+        <attr format="color" name="ib_titleColor"/>
+        <attr format="dimension" name="ib_titleSize"/>
+        <attr format="reference" name="ib_leftDrawable"/>
+        <attr format="dimension" name="ib_drawableWidth"/>
+        <attr format="dimension" name="ib_drawableHeight"/>
+        <attr format="color" name="ib_backgroundColor"/>
+        <attr format="color" name="ib_disableBackgroundColor"/>
+        <attr format="color" name="ib_borderColor"/>
+        <attr format="dimension" name="ib_borderWidth"/>
+        <attr format="color" name="ib_disableBorderColor"/>
+        <attr format="dimension" name="ib_corner"/>
+    </declare-styleable>
+
+</resources>
